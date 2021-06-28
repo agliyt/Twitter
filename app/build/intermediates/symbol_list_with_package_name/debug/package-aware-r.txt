@@ -1765,6 +1765,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnLogOut
 id buttonPanel
 id cache_measures
 id cancel_button
