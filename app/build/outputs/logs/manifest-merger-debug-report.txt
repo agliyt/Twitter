@@ -10,6 +10,7 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/angieel/.g
 MERGED from [com.codepath.libraries:asynchttpclient:0.0.9] /Users/angieel/.gradle/caches/transforms-2/files-2.1/ec8a2be8ac7b890dbd2f70ecdd8769f6/jetified-asynchttpclient-0.0.9/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/a16db5b44425ecffd4781fb791b0f708/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/fa52e002ae9e78e35c25fee9f61d47d2/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/78dd7b3d581aff3f2d6a0c1678931f8b/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
 MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/b8baad7e5d8c17b446fd43512a69256e/jetified-stetho-okhttp3-1.5.1/AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.stetho:stetho:1.5.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/8b977cf40a0ab6e7d59fe43fa619fdfb/jetified-stetho-1.5.1/AndroidManifest.xml:2:1-13:12
@@ -32,6 +33,7 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/angieel/.gradle/ca
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/cb2cdf934d3d3e0441b52d1dc3cb2e6a/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/223ae8e78f23f48ba5d96a1dcabe1834/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/c24177ae83091978e5c4ae83bccf2f01/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/c4e2469658fdd8801a5306110b0915fc/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/fd65391c38f3334831748ea49cfefda5/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/539553351326de75a5ede6ed48c38438/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/54ec9a60a0f20829d9c5323f1ce0908c/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -45,7 +47,6 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/angieel/.gradle/caches
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/1d3d300991201f0272c309154f6a5e44/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/b483c59108b83b2c001374a9e1131636/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/28efee2bf1e9a77f569846ad27f8a168/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/c4e2469658fdd8801a5306110b0915fc/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/257179ec940acce9d9b9b9069652d215/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:2:1-40:12
 INJECTED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:2:1-40:12
@@ -166,6 +167,8 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/angieel/.gradle/caches/t
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/a16db5b44425ecffd4781fb791b0f708/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/fa52e002ae9e78e35c25fee9f61d47d2/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/fa52e002ae9e78e35c25fee9f61d47d2/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/78dd7b3d581aff3f2d6a0c1678931f8b/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/78dd7b3d581aff3f2d6a0c1678931f8b/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/b8baad7e5d8c17b446fd43512a69256e/jetified-stetho-okhttp3-1.5.1/AndroidManifest.xml:7:5-9:41
@@ -210,6 +213,8 @@ MERGED from [androidx.customview:customview:1.0.0] /Users/angieel/.gradle/caches
 MERGED from [androidx.customview:customview:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/223ae8e78f23f48ba5d96a1dcabe1834/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.3.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/c24177ae83091978e5c4ae83bccf2f01/core-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/c24177ae83091978e5c4ae83bccf2f01/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/c4e2469658fdd8801a5306110b0915fc/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/c4e2469658fdd8801a5306110b0915fc/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/fd65391c38f3334831748ea49cfefda5/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/fd65391c38f3334831748ea49cfefda5/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/539553351326de75a5ede6ed48c38438/sqlite-2.0.1/AndroidManifest.xml:20:5-44
@@ -236,8 +241,6 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/b483c59108b83b2c001374a9e1131636/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/28efee2bf1e9a77f569846ad27f8a168/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/28efee2bf1e9a77f569846ad27f8a168/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/c4e2469658fdd8801a5306110b0915fc/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/c4e2469658fdd8801a5306110b0915fc/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/257179ec940acce9d9b9b9069652d215/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/angieel/.gradle/caches/transforms-2/files-2.1/257179ec940acce9d9b9b9069652d215/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml
