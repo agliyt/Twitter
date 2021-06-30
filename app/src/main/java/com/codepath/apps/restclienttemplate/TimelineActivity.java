@@ -1,12 +1,15 @@
 package com.codepath.apps.restclienttemplate;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -43,6 +46,12 @@ public class TimelineActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
 
+        ActionBar bar = getSupportActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.twitter_blue)));
+        View mActionBarView = getLayoutInflater().inflate(R.layout.my_action_bar, null);
+        bar.setCustomView(mActionBarView);
+        bar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+
         // Lookup the swipe container view
         swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
         // Setup refresh listener which triggers new data loading
@@ -78,12 +87,6 @@ public class TimelineActivity extends AppCompatActivity {
         populateHomeTimeline();
     }
 
-    public void onLogoutButton(View view) {
-        Log.i(TAG, "logout button clicked");
-        client.clearAccessToken(); // forget who's logged in
-        finish(); // navigate backwards to Login screen
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // inflate the menu (adds items to the action bar if present)
@@ -97,6 +100,11 @@ public class TimelineActivity extends AppCompatActivity {
             // navigate to the compose activity when compose icon is tapped
             Intent intent = new Intent(this, ComposeActivity.class);
             startActivityForResult(intent, REQUEST_CODE);
+            return true;
+        } else if (item.getItemId() == R.id.logout) {
+            Log.i(TAG, "logout button clicked");
+            client.clearAccessToken(); // forget who's logged in
+            finish(); // navigate backwards to Login screen
             return true;
         }
         return super.onOptionsItemSelected(item);

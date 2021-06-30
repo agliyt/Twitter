@@ -4,7 +4,16 @@
 
     <item
         android:id="@+id/compose"
-        android:icon="@android:drawable/ic_menu_edit"
+        android:icon="@drawable/ic_vector_compose"
         android:title="Compose"
-        app:showAsAction="always" />
+        app:showAsAction="always"
+        app:iconTint="@android:color/white"/>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="Logout"
+        app:showAsAction="always"
+        app:iconTint="@android:color/white"/>
+
 </menu>

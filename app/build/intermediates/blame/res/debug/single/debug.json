@@ -4,32 +4,56 @@
         "source": "/Users/angieel/Documents/Twitter/app/src/main/res/layout/activity_compose.xml"
     },
     {
-        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
-        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/menu/menu_main.xml"
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_photo_stroke.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_photo_stroke.png"
     },
     {
-        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
-        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_launcher.png"
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_location_stroke.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_location_stroke.png"
     },
     {
-        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/layout_item_tweet.xml.flat",
-        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/layout/item_tweet.xml"
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_compose.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_compose.png"
     },
     {
-        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
-        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/layout/activity_login.xml"
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_person_stroke.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_person_stroke.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_heart_stroke.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_heart_stroke.png"
     },
     {
         "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/menu_login.xml.flat",
-        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/menu/login.xml"
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_gif_pill_stroke.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_gif_pill_stroke.png"
     },
     {
-        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_gif_pill.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_gif_pill.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_home_stroke.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_home_stroke.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_messages_stroke.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_messages_stroke.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_search_stroke.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_search_stroke.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/layout_item_tweet.xml.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/layout/item_tweet.xml"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/layout_my_action_bar.xml.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/layout/my_action_bar.xml"
     },
     {
         "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/layout_activity_timeline.xml.flat",
@@ -38,5 +62,113 @@
     {
         "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
         "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_location.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_location.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_vector_compose_fab.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/vector_compose_fab.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_twitter_logo.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/twitter_logo.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_search.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_search.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_home.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_home.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_compose_dm.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_compose_dm.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_vector_compose_shortcut.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/vector_compose_shortcut.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_logout.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/logout.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_photo.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_photo.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_close.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_close.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_person.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_person.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/menu_menu_main.xml.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_notifications_stroke.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_notifications_stroke.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_vector_compose_dm_fab.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/vector_compose_dm_fab.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_twitter.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_launcher_twitter.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_messages.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_messages.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_retweet.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_retweet.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_follow.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_follow.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_twitter_round.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_launcher_twitter_round.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_retweet_stroke.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_retweet_stroke.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/menu_login.xml.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/menu/login.xml"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_notifications.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_notifications.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_heart.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_heart.png"
+    },
+    {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_vector_compose_dm_shortcut.png.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/vector_compose_dm_shortcut.png"
     }
 ]

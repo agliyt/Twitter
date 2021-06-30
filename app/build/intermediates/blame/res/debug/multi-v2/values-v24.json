@@ -6,11 +6,35 @@
                 {
                     "source": "/Users/angieel/.gradle/caches/transforms-2/files-2.1/a16db5b44425ecffd4781fb791b0f708/appcompat-1.2.0/res/values-v24/values-v24.xml",
                     "from": {
-                        "startLines": "2,3",
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "11,12",
                         "startColumns": "4,4",
-                        "startOffsets": "55,212",
+                        "startOffsets": "520,677",
                         "endColumns": "156,134",
-                        "endOffsets": "207,342"
+                        "endOffsets": "672,807"
+                    }
+                },
+                {
+                    "source": "/Users/angieel/Documents/Twitter/app/src/main/res/values-v24/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "516"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "515"
                     }
                 }
             ]
