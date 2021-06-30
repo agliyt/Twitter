@@ -95,8 +95,10 @@ public class TimelineActivity extends AppCompatActivity {
         view.setBackgroundColor(getResources().getColor(R.color.inline_action_retweet));
     }
 
-    public void onLikeClick() {
-
+    public void onLikeClick(View view) {
+        Log.i(TAG, "like clicked");
+        view.setBackgroundResource(R.drawable.ic_vector_heart);
+        view.setBackgroundColor(getResources().getColor(R.color.inline_action_like_pressed));
     }
 
     @Override
