@@ -20,6 +20,7 @@ public class Tweet {
     public String createdAt;
     public String timeStamp;
     public User user;
+    public String imageUrl;
 
     private static final int SECOND_MILLIS = 1000;
     private static final int MINUTE_MILLIS = 60 * SECOND_MILLIS;
@@ -68,7 +69,12 @@ public class Tweet {
         tweet.createdAt = jsonObject.getString("created_at");
         tweet.timeStamp = tweet.getRelativeTimeAgo(tweet.createdAt);
         tweet.user = User.fromJson(jsonObject.getJSONObject("user"));
-
+        tweet.imageUrl = "null";
+        // if media exists and the media is a photo
+        if (jsonObject.getJSONObject("entities").has("media") && jsonObject.getJSONObject("entities").getJSONArray("media").getJSONObject(0).getString("type").equals("photo")) {
+            tweet.imageUrl = jsonObject.getJSONObject("entities").getJSONArray("media").getJSONObject(0).getString("media_url_https");
+            Log.i("Tweet", String.format("User: %s; Photo url: %s", tweet.user.name, tweet.imageUrl));
+        }
         return tweet;
     }
 
