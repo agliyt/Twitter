@@ -15,8 +15,10 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.models.Tweet;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 
@@ -85,6 +87,16 @@ public class TimelineActivity extends AppCompatActivity {
         rvTweets.setAdapter(adapter);
 
         populateHomeTimeline();
+    }
+
+    public void onRetweetClick(View view) {
+        Log.i(TAG, "retweet clicked");
+        view.setBackgroundResource(R.drawable.ic_vector_retweet);
+        view.setBackgroundColor(getResources().getColor(R.color.inline_action_retweet));
+    }
+
+    public void onLikeClick() {
+
     }
 
     @Override

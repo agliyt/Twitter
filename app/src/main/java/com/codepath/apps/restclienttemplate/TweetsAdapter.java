@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -57,6 +58,8 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         TextView tvScreenName;
         TextView tvTimeStamp;
         ImageView ivTweetImage;
+        ImageButton retweet;
+        ImageButton like;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -65,6 +68,8 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
             tvScreenName = itemView.findViewById(R.id.tvScreenName);
             tvTimeStamp = itemView.findViewById(R.id.tvTimeStamp);
             ivTweetImage = itemView.findViewById(R.id.ivTweetImage);
+            retweet = itemView.findViewById(R.id.retweet);
+            like = itemView.findViewById(R.id.heart);
         }
 
         public void bind(Tweet tweet) {

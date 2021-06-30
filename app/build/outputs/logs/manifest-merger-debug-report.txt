@@ -96,7 +96,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/angi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /Users/angieel/.gradle/caches/transforms-2/files-2.1/c24177ae83091978e5c4ae83bccf2f01/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:16:9-25
+		ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:16:9-41
 	android:roundIcon
 		ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:14:9-64
 	android:icon
@@ -110,15 +110,21 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/angi
 	android:name
 		ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:11:9-35
 activity#com.codepath.apps.restclienttemplate.ComposeActivity
-ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:18:9-19:15
+ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:18:9-19:31
+	android:label
+		ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:19:13-29
 	android:name
 		ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:18:19-50
 activity#com.codepath.apps.restclienttemplate.TimelineActivity
-ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:20:9-21:15
+ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:20:9-21:31
+	android:label
+		ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:21:13-29
 	android:name
 		ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:20:19-51
 activity#com.codepath.apps.restclienttemplate.LoginActivity
 ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:22:9-41:20
+	android:label
+		ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:25:13-29
 	android:theme
 		ADDED from /Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:24:13-44
 	android:name

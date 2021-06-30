@@ -1872,6 +1872,7 @@ id disableHome
 id disablePostScroll
 id disableScroll
 id disjoint
+id divider
 id dragDown
 id dragEnd
 id dragLeft
@@ -1913,6 +1914,7 @@ id grouping
 id groups
 id guideline
 id header_title
+id heart
 id hideable
 id home
 id homeAsUp
@@ -2030,6 +2032,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id retweet
 id reverseSawtooth
 id right
 id rightToLeft

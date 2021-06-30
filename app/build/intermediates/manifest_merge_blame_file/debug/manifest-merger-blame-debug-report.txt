@@ -28,8 +28,8 @@
 18        android:debuggable="true"
 19        android:icon="@drawable/ic_launcher_twitter"
 19-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:15:9-53
-20        android:label=""
-20-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:16:9-25
+20        android:label="@string/app_name"
+20-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:16:9-41
 21        android:logo="@drawable/twitter_logo"
 21-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:13:9-46
 22        android:roundIcon="@drawable/ic_launcher_twitter_round"
@@ -37,58 +37,66 @@
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
 24-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:17:9-40
-25        <activity android:name="com.codepath.apps.restclienttemplate.ComposeActivity" />
-25-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:18:9-19:15
-25-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:18:19-50
-26        <activity android:name="com.codepath.apps.restclienttemplate.TimelineActivity" />
-26-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:20:9-21:15
-26-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:20:19-51
-27        <activity
-27-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:22:9-41:20
-28            android:name="com.codepath.apps.restclienttemplate.LoginActivity"
-28-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:23:13-42
-29            android:theme="@style/AppTheme" >
-29-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:24:13-44
-30            <intent-filter>
-30-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:26:13-30:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:27:17-69
-31-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:27:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:29:17-77
-33-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:29:27-74
-34            </intent-filter>
+25        <activity
+25-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:18:9-19:31
+26            android:name="com.codepath.apps.restclienttemplate.ComposeActivity"
+26-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:18:19-50
+27            android:label="" />
+27-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:19:13-29
+28        <activity
+28-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:20:9-21:31
+29            android:name="com.codepath.apps.restclienttemplate.TimelineActivity"
+29-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:20:19-51
+30            android:label="" />
+30-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:21:13-29
+31        <activity
+31-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:22:9-41:20
+32            android:name="com.codepath.apps.restclienttemplate.LoginActivity"
+32-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:23:13-42
+33            android:label=""
+33-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:25:13-29
+34            android:theme="@style/AppTheme" >
+34-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:24:13-44
 35            <intent-filter>
-35-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:31:13-40:29
-36                <action android:name="android.intent.action.VIEW" />
-36-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:32:17-69
-36-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:32:25-66
+35-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:26:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:27:17-69
+36-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:27:25-66
 37
-38                <category android:name="android.intent.category.DEFAULT" />
-38-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:34:17-76
-38-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:34:27-73
-39                <category android:name="android.intent.category.BROWSABLE" />
-39-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:35:17-78
-39-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:35:27-75
-40
-41                <data
-41-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:37:17-39:62
-42                    android:host="@string/intent_host"
-42-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:38:21-55
-43                    android:scheme="@string/intent_scheme" />
-43-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:39:21-59
-44            </intent-filter>
-45        </activity>
-46
-47        <service
-47-->[androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
-48            android:name="androidx.room.MultiInstanceInvalidationService"
-48-->[androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
-49            android:directBootAware="true"
-49-->[androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
-50            android:exported="false" />
-50-->[androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
-51    </application>
-52
-53</manifest>
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:29:17-77
+38-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:29:27-74
+39            </intent-filter>
+40            <intent-filter>
+40-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:31:13-40:29
+41                <action android:name="android.intent.action.VIEW" />
+41-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:32:17-69
+41-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:32:25-66
+42
+43                <category android:name="android.intent.category.DEFAULT" />
+43-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:34:17-76
+43-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:34:27-73
+44                <category android:name="android.intent.category.BROWSABLE" />
+44-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:35:17-78
+44-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:35:27-75
+45
+46                <data
+46-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:37:17-39:62
+47                    android:host="@string/intent_host"
+47-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:38:21-55
+48                    android:scheme="@string/intent_scheme" />
+48-->/Users/angieel/Documents/Twitter/app/src/main/AndroidManifest.xml:39:21-59
+49            </intent-filter>
+50        </activity>
+51
+52        <service
+52-->[androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+53            android:name="androidx.room.MultiInstanceInvalidationService"
+53-->[androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+54            android:directBootAware="true"
+54-->[androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+55            android:exported="false" />
+55-->[androidx.room:room-runtime:2.2.5] /Users/angieel/.gradle/caches/transforms-2/files-2.1/94408f450c40aad162bc9708d96445f2/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+56    </application>
+57
+58</manifest>

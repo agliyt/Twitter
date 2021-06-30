@@ -40,14 +40,54 @@
 
     <ImageView
         android:id="@+id/ivTweetImage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="342dp"
+        android:layout_height="159dp"
         android:layout_below="@+id/tvBody"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="5dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:visibility="gone"
+        android:visibility="visible"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/retweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivTweetImage"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="onRetweetClick"
+        android:tint="@color/medium_gray"
+        app:srcCompat="@drawable/ic_vector_retweet_stroke"
+        tools:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivTweetImage"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="97dp"
+        android:layout_toRightOf="@id/retweet"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="onLikeClick"
+        android:tint="@color/medium_gray"
+        app:srcCompat="@drawable/ic_vector_heart_stroke" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/retweet"
+        android:layout_marginTop="2dp"
+        android:background="?android:attr/listDivider" />
 </RelativeLayout>
