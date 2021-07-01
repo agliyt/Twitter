@@ -22,6 +22,8 @@ public class Tweet {
     public User user;
     public String imageUrl;
     public String postID;
+    public boolean retweeted;
+    public boolean favorited;
 
     private static final int SECOND_MILLIS = 1000;
     private static final int MINUTE_MILLIS = 60 * SECOND_MILLIS;
@@ -75,6 +77,8 @@ public class Tweet {
         tweet.timeStamp = tweet.getRelativeTimeAgo(tweet.createdAt);
         tweet.user = User.fromJson(jsonObject.getJSONObject("user"));
         tweet.postID = jsonObject.getString("id_str");
+        tweet.retweeted = jsonObject.getBoolean("retweeted");
+        tweet.favorited = jsonObject.getBoolean("favorited");
         tweet.imageUrl = "null";
         // if media exists and the media is a photo
         if (jsonObject.getJSONObject("entities").has("media")) {

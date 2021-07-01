@@ -59,13 +59,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/ivTweetImage"
         android:layout_alignParentStart="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginStart="97dp"
         android:layout_marginTop="2dp"
-        android:backgroundTint="#00FFFFFF"
+        android:background="@drawable/ic_vector_retweet_stroke"
+        android:backgroundTint="@color/medium_gray"
         android:onClick="onRetweetClick"
-        android:tint="@color/medium_gray"
-        app:srcCompat="@drawable/ic_vector_retweet_stroke"
         tools:layout_centerHorizontal="true" />
 
     <ImageButton
@@ -73,17 +71,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/ivTweetImage"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginStart="112dp"
-        android:layout_marginLeft="112dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="97dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="1dp"
         android:layout_toRightOf="@id/retweet"
-        android:backgroundTint="#00FFFFFF"
-        android:onClick="onLikeClick"
-        android:tint="@color/medium_gray"
-        app:srcCompat="@drawable/ic_vector_heart_stroke" />
+        android:background="@drawable/ic_vector_heart_stroke"
+        android:backgroundTint="@color/medium_gray"
+        android:onClick="onLikeClick" />
 
     <View
         android:id="@+id/divider"

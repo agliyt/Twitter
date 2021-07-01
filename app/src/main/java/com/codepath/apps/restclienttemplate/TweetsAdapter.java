@@ -76,6 +76,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
             tvBody.setText(tweet.body);
             tvScreenName.setText(tweet.user.screenName);
             tvTimeStamp.setText(tweet.timeStamp);
+            // handle retweeting/liking
             Glide.with(context)
                     .load(tweet.user.profileImageUrl)
                     .into(ivProfileImage);

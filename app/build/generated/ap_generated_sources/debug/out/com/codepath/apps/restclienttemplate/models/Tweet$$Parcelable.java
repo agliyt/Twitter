@@ -56,6 +56,8 @@ public class Tweet$$Parcelable
             parcel$$1 .writeString(tweet$$1 .postID);
             parcel$$1 .writeString(tweet$$1 .body);
             com.codepath.apps.restclienttemplate.models.User$$Parcelable.write(tweet$$1 .user, parcel$$1, flags$$0, identityMap$$0);
+            parcel$$1 .writeInt((tweet$$1 .retweeted? 1 : 0));
+            parcel$$1 .writeInt((tweet$$1 .favorited? 1 : 0));
         }
     }
 
@@ -88,6 +90,8 @@ public class Tweet$$Parcelable
             tweet$$4 .body = parcel$$3 .readString();
             User user$$0 = com.codepath.apps.restclienttemplate.models.User$$Parcelable.read(parcel$$3, identityMap$$1);
             tweet$$4 .user = user$$0;
+            tweet$$4 .retweeted = (parcel$$3 .readInt() == 1);
+            tweet$$4 .favorited = (parcel$$3 .readInt() == 1);
             com.codepath.apps.restclienttemplate.models.Tweet tweet$$3 = tweet$$4;
             identityMap$$1 .put(identity$$1, tweet$$3);
             return tweet$$3;

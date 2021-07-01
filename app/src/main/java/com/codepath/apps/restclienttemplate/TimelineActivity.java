@@ -9,6 +9,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -92,13 +93,13 @@ public class TimelineActivity extends AppCompatActivity {
     public void onRetweetClick(View view) {
         Log.i(TAG, "retweet clicked");
         view.setBackgroundResource(R.drawable.ic_vector_retweet);
-        view.setBackgroundColor(getResources().getColor(R.color.inline_action_retweet));
+        view.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.inline_action_retweet)));
     }
 
     public void onLikeClick(View view) {
         Log.i(TAG, "like clicked");
         view.setBackgroundResource(R.drawable.ic_vector_heart);
-        view.setBackgroundColor(getResources().getColor(R.color.inline_action_like_pressed));
+        view.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.inline_action_like)));
     }
 
     @Override
