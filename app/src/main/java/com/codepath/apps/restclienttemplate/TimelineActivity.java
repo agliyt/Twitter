@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.models.Tweet;
+import com.codepath.apps.restclienttemplate.models.User;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 
 import org.json.JSONArray;
@@ -186,5 +187,13 @@ public class TimelineActivity extends AppCompatActivity implements TweetsAdapter
                 Log.e(TAG, "onFailure " + response, throwable);
             }
         });
+    }
+
+    @Override
+    public void onUserClicked(final int position) {
+        final Tweet tweet = tweets.get(position);
+        Intent i = new Intent(this, UserActivity.class);
+        i.putExtra(User.class.getSimpleName(), Parcels.wrap(tweet.user));
+        this.startActivity(i);
     }
  }

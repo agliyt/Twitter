@@ -1818,6 +1818,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnFollow
 id btnTweet
 id buttonPanel
 id cache_measures
@@ -1860,6 +1861,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1873,6 +1875,7 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id divider
+id divider2
 id dragDown
 id dragEnd
 id dragLeft
@@ -1902,6 +1905,8 @@ id fitToContents
 id fixed
 id flip
 id floating
+id followers
+id following
 id forever
 id ghost_view
 id ghost_view_holder
@@ -1943,6 +1948,7 @@ id leftToRight
 id line1
 id line3
 id linear
+id link
 id listMode
 id list_item
 id logo
@@ -2027,6 +2033,7 @@ id percent
 id pin
 id position
 id postLayout
+id profilePic
 id progress_circular
 id progress_horizontal
 id radio
@@ -2041,6 +2048,7 @@ id right_side
 id rounded
 id row_index_key
 id rvTweets
+id rvUserTweets
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2150,6 +2158,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id view_offset_helper
 id visible
 id withText
@@ -2220,6 +2229,7 @@ layout abc_tooltip
 layout activity_compose
 layout activity_login
 layout activity_timeline
+layout activity_user
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

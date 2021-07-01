@@ -156,6 +156,10 @@
         "source": "/Users/angieel/Documents/Twitter/app/src/main/res/menu/login.xml"
     },
     {
+        "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/layout_activity_user.xml.flat",
+        "source": "/Users/angieel/Documents/Twitter/app/src/main/res/layout/activity_user.xml"
+    },
+    {
         "merged": "/Users/angieel/Documents/Twitter/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_vector_notifications.png.flat",
         "source": "/Users/angieel/Documents/Twitter/app/src/main/res/drawable-hdpi/ic_vector_notifications.png"
     },

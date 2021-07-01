@@ -10,19 +10,22 @@
     <application
         android:name=".TwitterApp"
         android:allowBackup="true"
-        android:logo="@drawable/twitter_logo"
-        android:roundIcon="@drawable/ic_launcher_twitter_round"
         android:icon="@drawable/ic_launcher_twitter"
         android:label="@string/app_name"
+        android:logo="@drawable/twitter_logo"
+        android:roundIcon="@drawable/ic_launcher_twitter_round"
         android:theme="@style/AppTheme">
-        <activity android:name=".ComposeActivity"
-            android:label=""/>
-        <activity android:name=".TimelineActivity"
-            android:label=""/>
+        <activity android:name=".UserActivity"></activity>
+        <activity
+            android:name=".ComposeActivity"
+            android:label="" />
+        <activity
+            android:name=".TimelineActivity"
+            android:label="" />
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/AppTheme"
-            android:label="">
+            android:label=""
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

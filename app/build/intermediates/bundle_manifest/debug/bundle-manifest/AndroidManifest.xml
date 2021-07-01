@@ -22,6 +22,7 @@
         android:roundIcon="@drawable/ic_launcher_twitter_round"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.codepath.apps.restclienttemplate.UserActivity" />
         <activity
             android:name="com.codepath.apps.restclienttemplate.ComposeActivity"
             android:label="" />

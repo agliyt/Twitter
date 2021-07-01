@@ -25,6 +25,7 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
     public interface onClickListener{
         void onItemRetweeted(int position);
         void onItemLiked(int position);
+        void onUserClicked(int position);
     }
 
     onClickListener onClickListener;
@@ -123,6 +124,13 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
                 @Override
                 public void onClick(View view) {
                     onClickListener.onItemLiked(getAdapterPosition());
+                }
+            });
+
+            ivProfileImage.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    onClickListener.onUserClicked(getAdapterPosition());
                 }
             });
         }
