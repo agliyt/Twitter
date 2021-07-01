@@ -53,6 +53,7 @@ public class Tweet$$Parcelable
             parcel$$1 .writeString(tweet$$1 .timeStamp);
             parcel$$1 .writeString(tweet$$1 .createdAt);
             parcel$$1 .writeString(tweet$$1 .imageUrl);
+            parcel$$1 .writeString(tweet$$1 .postID);
             parcel$$1 .writeString(tweet$$1 .body);
             com.codepath.apps.restclienttemplate.models.User$$Parcelable.write(tweet$$1 .user, parcel$$1, flags$$0, identityMap$$0);
         }
@@ -83,6 +84,7 @@ public class Tweet$$Parcelable
             tweet$$4 .timeStamp = parcel$$3 .readString();
             tweet$$4 .createdAt = parcel$$3 .readString();
             tweet$$4 .imageUrl = parcel$$3 .readString();
+            tweet$$4 .postID = parcel$$3 .readString();
             tweet$$4 .body = parcel$$3 .readString();
             User user$$0 = com.codepath.apps.restclienttemplate.models.User$$Parcelable.read(parcel$$3, identityMap$$1);
             tweet$$4 .user = user$$0;
