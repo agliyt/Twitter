@@ -1,4 +1,4 @@
-#Thu Jul 01 16:49:38 EDT 2021
+#Thu Jul 01 18:14:14 EDT 2021
 base.1=/Users/angieel/Documents/Twitter/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
 path.1=classes.dex
 base.0=/Users/angieel/Documents/Twitter/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex

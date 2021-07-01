@@ -32,7 +32,7 @@ import java.util.List;
 
 import okhttp3.Headers;
 
-public class TimelineActivity extends AppCompatActivity {
+public class TimelineActivity extends AppCompatActivity implements TweetsAdapter.onClickListener{
 
     public static final String TAG = "TimelineActivity";
     public final int REQUEST_CODE = 20;
@@ -81,25 +81,13 @@ public class TimelineActivity extends AppCompatActivity {
 
         // init the list of tweets and adapter
         tweets = new ArrayList<>();
-        adapter = new TweetsAdapter(this, tweets);
+        adapter = new TweetsAdapter(this, tweets, this);
 
         // recycler view setup: layout manager and adapter
         rvTweets.setLayoutManager(new LinearLayoutManager(this));
         rvTweets.setAdapter(adapter);
 
         populateHomeTimeline();
-    }
-
-    public void onRetweetClick(View view) {
-        Log.i(TAG, "retweet clicked");
-        view.setBackgroundResource(R.drawable.ic_vector_retweet);
-        view.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.inline_action_retweet)));
-    }
-
-    public void onLikeClick(View view) {
-        Log.i(TAG, "like clicked");
-        view.setBackgroundResource(R.drawable.ic_vector_heart);
-        view.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.inline_action_like)));
     }
 
     @Override
@@ -163,4 +151,40 @@ public class TimelineActivity extends AppCompatActivity {
             }
         });
     }
-}
+
+    @Override
+    public void onItemRetweeted(final int position) {
+        final Tweet tweet = tweets.get(position);
+        client.retweetTweet(tweet.retweeted, tweet.postID, new JsonHttpResponseHandler() {
+            @Override
+            public void onSuccess(int statusCode, Headers headers, JSON json) {
+                Log.i(TAG, "onSuccess: " + json.toString());
+                tweet.retweeted = !tweet.retweeted;
+                adapter.notifyItemChanged(position);
+            }
+
+            @Override
+            public void onFailure(int statusCode, Headers headers, String response, Throwable throwable) {
+                Log.e(TAG, "onFailure " + response, throwable);
+            }
+        });
+    }
+
+    @Override
+    public void onItemLiked(final int position) {
+        final Tweet tweet = tweets.get(position);
+        client.likeTweet(tweet.favorited, tweet.postID, new JsonHttpResponseHandler() {
+            @Override
+            public void onSuccess(int statusCode, Headers headers, JSON json) {
+                Log.i(TAG, "onSuccess: " + json.toString());
+                tweet.favorited = !tweet.favorited;
+                adapter.notifyItemChanged(position);
+            }
+
+            @Override
+            public void onFailure(int statusCode, Headers headers, String response, Throwable throwable) {
+                Log.e(TAG, "onFailure " + response, throwable);
+            }
+        });
+    }
+ }

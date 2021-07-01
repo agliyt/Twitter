@@ -1,6 +1,7 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,10 +22,18 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
     Context context;
     List<Tweet> tweets;
 
+    public interface onClickListener{
+        void onItemRetweeted(int position);
+        void onItemLiked(int position);
+    }
+
+    onClickListener onClickListener;
+
     // pass in context and list of tweets
-    public TweetsAdapter(Context context, List<Tweet> tweets) {
+    public TweetsAdapter(Context context, List<Tweet> tweets, onClickListener onClickListener) {
         this.context = context;
         this.tweets = tweets;
+        this.onClickListener = onClickListener;
     }
 
     // for each row, inflate the layout
@@ -77,6 +86,20 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
             tvScreenName.setText(tweet.user.screenName);
             tvTimeStamp.setText(tweet.timeStamp);
             // handle retweeting/liking
+            if (tweet.retweeted) {
+                retweet.setBackgroundResource(R.drawable.ic_vector_retweet);
+                retweet.setBackgroundTintList(ColorStateList.valueOf(context.getResources().getColor(R.color.inline_action_retweet)));
+            } else {
+                retweet.setBackgroundResource(R.drawable.ic_vector_retweet_stroke);
+                retweet.setBackgroundTintList(ColorStateList.valueOf(context.getResources().getColor(R.color.medium_gray)));
+            }
+            if (tweet.favorited) {
+                like.setBackgroundResource(R.drawable.ic_vector_heart);
+                like.setBackgroundTintList(ColorStateList.valueOf(context.getResources().getColor(R.color.inline_action_like)));
+            } else {
+                like.setBackgroundResource(R.drawable.ic_vector_heart_stroke);
+                like.setBackgroundTintList(ColorStateList.valueOf(context.getResources().getColor(R.color.medium_gray)));
+            }
             Glide.with(context)
                     .load(tweet.user.profileImageUrl)
                     .into(ivProfileImage);
@@ -88,6 +111,20 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
             } else {
                 ivTweetImage.setVisibility(View.GONE);
             }
+
+            retweet.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    onClickListener.onItemRetweeted(getAdapterPosition());
+                }
+            });
+
+            like.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    onClickListener.onItemLiked(getAdapterPosition());
+                }
+            });
         }
     }
 }
